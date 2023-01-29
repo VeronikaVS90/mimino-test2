@@ -13,75 +13,85 @@
   </head>
   <body>
     <section class="about-hotel">
-      <div class="container">
+      <div class="container about-hotel__container">
         <h2 class="visually-hidden">Про наш готель</h2>
-        <p class="about-hotel__headline">Amet minim mollit non</p>
-        <p class="about-hotel__logo logo">MIMIHO</p>
-        <p class="about-hotel__room-text">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-          consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
-        </p>
+        <p class="about-hotel__subtitle">Amet minim mollit non</p>
+        <p class="about-hotel__logo">MIMIHO</p>
+        <ul class="about-cards">
+          <li class="about-card about-card--reverse">
+            <p class="about-card__description">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+              amet.
+            </p>
 
-        <picture>
-          <source
-            srcset="
-              ./images/m-desktop/homepage-about-hotel-room-desktop-@1x.jpg 1x,
-              ./images/m-desktop/homepage-about-hotel-room-desktop-@2x.jpg 2x
-            "
-            media="(min-width: 1280px)"
-          />
-          <source
-            srcset="
-              ./images/m-tablet/homepage-about-hotel-room-tablet-@1x.jpg 1x,
-              ./images/m-tablet/homepage-about-hotel-room-tablet-@2x.jpg 2x
-            "
-            media="(min-width: 1024px)"
-          />
-          <img
-            srcset="
-              ./images/m-mobile/homepage-about-hotel-room-mobile-@1x.jpg 1x,
-              ./images/m-mobile/homepage-about-hotel-room-mobile-@2x.jpg 2x
-            "
-            src="./images/m-mobile/homepage-about-hotel-room-mobile-@1x.jpg"
-            alt="Готельний номер"
-            class="about-hotel__room-img"
-          />
-        </picture>
+            <div class="about-card__thumb">
+              <picture>
+                <source
+                  srcset="
+                    ./images/m-desktop/homepage-about-hotel-room-desktop-@1x.jpg 1x,
+                    ./images/m-desktop/homepage-about-hotel-room-desktop-@2x.jpg 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./images/m-tablet/homepage-about-hotel-room-tablet-@1x.jpg 1x,
+                    ./images/m-tablet/homepage-about-hotel-room-tablet-@2x.jpg 2x
+                  "
+                  media="(min-width: 1024px)"
+                />
+                <img
+                  srcset="
+                    ./images/m-mobile/homepage-about-hotel-room-mobile-@1x.jpg 1x,
+                    ./images/m-mobile/homepage-about-hotel-room-mobile-@2x.jpg 2x
+                  "
+                  src="./images/m-mobile/homepage-about-hotel-room-mobile-@1x.jpg"
+                  alt="Готельний номер"
+                  class="about-hotel__room-img"
+                />
+              </picture>
+            </div>
+          </li>
 
-        <div class="about-hotel__hall-container">
-          <p class="about-hotel__hall-text">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet <br />
-            sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt
-            nostrud amet.
-          </p>
+          <li class="about-card about-card--reverse">
+            <p class="about-card__description">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+              amet.
+            </p>
 
-          <picture>
-            <source
-              srcset="
-                ./images/m-desktop/homepage-about-hotel-hall-desktop-@1x.jpg 1x,
-                ./images/m-desktop/homepage-about-hotel-hall-desktop-@2x.jpg 2x
-              "
-              media="(min-width: 1280px)"
-            />
-            <source
-              srcset="
-                ./images/m-tablet/homepage-about-hotel-hall-tablet-@1x.jpg 1x,
-                ./images/m-tablet/homepage-about-hotel-hall-tablet-@2x.jpg 2x
-              "
-              media="(min-width: 1024px)"
-            />
-            <img
-              srcset="
-                ./images/m-mobile/homepage-about-hotel-hall-mobile-@1x.jpg 1x,
-                ./images/m-mobile/homepage-about-hotel-hall-mobile-@2x.jpg 2x
-              "
-              src="./images/m-mobile/homepage-about-hotel-hall-mobile-@1x.jpg"
-              alt="Хол"
-              class="about-hotel__hall-img"
-            />
-          </picture>
-        </div>
+            <div class="about-card__thumb">
+              <picture>
+                <source
+                  srcset="
+                    ./images/m-desktop/homepage-about-hotel-hall-desktop-@1x.jpg 1x,
+                    ./images/m-desktop/homepage-about-hotel-hall-desktop-@2x.jpg 2x
+                  "
+                  media="(min-width: 1280px)"
+                />
+                <source
+                  srcset="
+                    ./images/m-tablet/homepage-about-hotel-hall-tablet-@1x.jpg 1x,
+                    ./images/m-tablet/homepage-about-hotel-hall-tablet-@2x.jpg 2x
+                  "
+                  media="(min-width: 1024px)"
+                />
+                <img
+                  srcset="
+                    ./images/m-mobile/homepage-about-hotel-hall-mobile-@1x.jpg 1x,
+                    ./images/m-mobile/homepage-about-hotel-hall-mobile-@2x.jpg 2x
+                  "
+                  src="./images/m-mobile/homepage-about-hotel-hall-mobile-@1x.jpg"
+                  alt="Хол"
+                  class="about-hotel__hall-img"
+                />
+              </picture>
+            </div>
+          </li>
+        </ul>
 
+        <!-- Slider -->
         <div class="slider-container">
           <div class="slider-line">
             <picture>
