@@ -372,7 +372,7 @@ button {
   margin-top: 32px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 550px;
+  width: 530px;
   height: 245px;
   overflow-x: clip;
   -webkit-transform: translateX(-35%);
@@ -382,7 +382,7 @@ button {
   .slider-container {
     position: absolute;
     margin-top: -32px;
-    width: 468px;
+    width: 455px;
     height: 194px;
     -webkit-transform: none;
             transform: none;
@@ -390,7 +390,7 @@ button {
 }
 @media screen and (min-width: 1280px) {
   .slider-container {
-    width: 588px;
+    width: 575px;
     height: 254px;
     margin-top: -120px;
   }

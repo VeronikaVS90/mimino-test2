@@ -2,7 +2,7 @@
     margin-top: 32px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 550px;
+    width: 530px;
     height: 245px;
     // overflow: hidden;
     overflow-x: clip;
@@ -11,14 +11,14 @@
     @media screen and (min-width: 1024px) {
         position: absolute;
         margin-top: -32px;
-        width: 468px;
+        width: 455px;
         height: 194px;
         transform: none;
     }
 
     @media screen and (min-width: 1280px) {
     
-        width: 588px;
+        width: 575px;
         height: 254px;
         margin-top: -120px;
 
