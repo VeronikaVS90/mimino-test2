@@ -372,11 +372,9 @@ button {
   margin-top: 32px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 530px;
+  width: 330px;
   height: 245px;
   overflow-x: clip;
-  -webkit-transform: translateX(-35%);
-          transform: translateX(-35%);
 }
 @media screen and (min-width: 1024px) {
   .slider-container {
@@ -384,8 +382,6 @@ button {
     margin-top: -32px;
     width: 455px;
     height: 194px;
-    -webkit-transform: none;
-            transform: none;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -407,6 +403,8 @@ button {
   left: 0;
   -webkit-transition: all ease 2s;
   transition: all ease 2s;
+  -webkit-transform: translateX(-35%);
+          transform: translateX(-35%);
 }
 @media screen and (min-width: 1024px) {
   .slider-line {
