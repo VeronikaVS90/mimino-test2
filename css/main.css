@@ -410,6 +410,8 @@ button {
   .slider-line {
     height: 194px;
     gap: 40px;
+    -webkit-transform: none;
+            transform: none;
   }
 }
 @media screen and (min-width: 1280px) {
